@@ -1,0 +1,20 @@
+{
+    "name": "outsideopen/kaseya-api-client",
+    "type": "library",
+    "description": "Client library for Kaseya Rest API",
+    "keywords": ["kaseya", "api"],
+    "homepage": "http://github.com/outsideopen/kaseya-api-php-client",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.4",
+        "monolog/monolog": "^1.17",
+        "phpseclib/phpseclib": "~0.3.10|~2.0",
+        "guzzlehttp/guzzle": "~5.3.1|~6.0",
+        "guzzlehttp/psr7": "^1.2"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Kaseya\\": "src"
+        }
+    }
+}
